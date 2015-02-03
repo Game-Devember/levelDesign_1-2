@@ -1,0 +1,8 @@
+1.GameController is an empty object for scripts related to changes in the environment like instantiating pickups etc.
+
+2.The script prefab is for instantiating prefabs of the pickups and  will be added to GameController once the pickups have been modeled.
+
+3.The textures I've used are bullshit and are for the sole purpose of visibilty.Don't hate.
+
+4.The project is in ImBadAtNamingThings
+                                                                                                                                   -Yash
