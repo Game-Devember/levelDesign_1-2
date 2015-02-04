@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6eba6f8a753ff1642a85b9bfa2908a05
+guid: 844d8bfb6202a8943836b3ea933fa9d9
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -10,7 +10,6 @@ ModelImporter:
     2300000: pickup_Speed
     3300000: pickup_Speed
     4300000: pickup_Speed
-    6400000: pickup_Speed
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -33,7 +32,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
