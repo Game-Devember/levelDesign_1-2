@@ -22,14 +22,14 @@ var inputJump : boolean = false;
 class CharacterMotorMovement {
 	// The maximum horizontal speed when moving
 	static var maxForwardSpeed : float = 10.0;
-	var maxSidewaysSpeed : float = 10.0;
-	var maxBackwardsSpeed : float = 10.0;
+	static var maxSidewaysSpeed : float = 10.0;
+	static var maxBackwardsSpeed : float = 10.0;
 	
 	// Curve for multiplying speed based on slope (negative = downwards)
 	var slopeSpeedMultiplier : AnimationCurve = AnimationCurve(Keyframe(-90, 1), Keyframe(0, 1), Keyframe(90, 0));
 	
 	// How fast does the character change speeds?  Higher is faster.
-	var maxGroundAcceleration : float = 30.0;
+	static var maxGroundAcceleration : float = 30.0;
 	var maxAirAcceleration : float = 20.0;
 
 	// The gravity for the character
