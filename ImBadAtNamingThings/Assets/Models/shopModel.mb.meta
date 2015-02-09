@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79313fb9d82c6c446a6bb231f04dce5f
+guid: accb06ceba2041f43b7027794e2a196c
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -7,88 +7,108 @@ ModelImporter:
     100002: pCube4
     100004: polySurface1
     100006: polySurface10
-    100008: polySurface2
-    100010: polySurface3
-    100012: polySurface4
-    100014: polySurface6
-    100016: polySurface7
-    100018: polySurface8
-    100020: polySurface9
-    100022: pPlane1
-    100024: pPlane2
-    100026: pPlane3
-    100028: shop_All
-    100030: shop_BrokenSign
-    100032: shop_Counter1
-    100034: shop_sodaDispenser
-    100036: shop_Structure1
-    100038: shop_Trasnforms
-    100040: //RootNode
-    100042: transform1
-    100044: transform10
-    100046: transform11
-    100048: transform12
-    100050: transform13
-    100052: transform14
-    100054: transform2
-    100056: transform3
-    100058: transform4
-    100060: transform5
-    100062: transform6
-    100064: transform7
-    100066: transform8
-    100068: transform9
+    100008: polySurface11
+    100010: polySurface12
+    100012: polySurface13
+    100014: polySurface14
+    100016: polySurface15
+    100018: polySurface16
+    100020: polySurface2
+    100022: polySurface3
+    100024: polySurface4
+    100026: polySurface6
+    100028: polySurface7
+    100030: polySurface8
+    100032: polySurface9
+    100034: pPlane1
+    100036: pPlane2
+    100038: pPlane3
+    100040: shop_All
+    100042: shop_BrokenSign
+    100044: shop_Counter1
+    100046: shop_sodaDispenser
+    100048: shop_Structure1
+    100050: shop_Trasnforms
+    100052: //RootNode
+    100054: transform1
+    100056: transform10
+    100058: transform11
+    100060: transform12
+    100062: transform13
+    100064: transform14
+    100066: transform15
+    100068: transform16
+    100070: transform17
+    100072: transform18
+    100074: transform19
+    100076: transform2
+    100078: transform20
+    100080: transform3
+    100082: transform4
+    100084: transform5
+    100086: transform6
+    100088: transform7
+    100090: transform8
+    100092: transform9
     400000: pCube1
     400002: pCube4
     400004: polySurface1
     400006: polySurface10
-    400008: polySurface2
-    400010: polySurface3
-    400012: polySurface4
-    400014: polySurface6
-    400016: polySurface7
-    400018: polySurface8
-    400020: polySurface9
-    400022: pPlane1
-    400024: pPlane2
-    400026: pPlane3
-    400028: shop_All
-    400030: shop_BrokenSign
-    400032: shop_Counter1
-    400034: shop_sodaDispenser
-    400036: shop_Structure1
-    400038: shop_Trasnforms
-    400040: //RootNode
-    400042: transform1
-    400044: transform10
-    400046: transform11
-    400048: transform12
-    400050: transform13
-    400052: transform14
-    400054: transform2
-    400056: transform3
-    400058: transform4
-    400060: transform5
-    400062: transform6
-    400064: transform7
-    400066: transform8
-    400068: transform9
-    2300000: shop_BrokenSign
-    2300002: shop_Counter1
-    2300004: shop_sodaDispenser
-    2300006: shop_Structure1
-    3300000: shop_BrokenSign
-    3300002: shop_Counter1
-    3300004: shop_sodaDispenser
-    3300006: shop_Structure1
+    400008: polySurface11
+    400010: polySurface12
+    400012: polySurface13
+    400014: polySurface14
+    400016: polySurface15
+    400018: polySurface16
+    400020: polySurface2
+    400022: polySurface3
+    400024: polySurface4
+    400026: polySurface6
+    400028: polySurface7
+    400030: polySurface8
+    400032: polySurface9
+    400034: pPlane1
+    400036: pPlane2
+    400038: pPlane3
+    400040: shop_All
+    400042: shop_BrokenSign
+    400044: shop_Counter1
+    400046: shop_sodaDispenser
+    400048: shop_Structure1
+    400050: shop_Trasnforms
+    400052: //RootNode
+    400054: transform1
+    400056: transform10
+    400058: transform11
+    400060: transform12
+    400062: transform13
+    400064: transform14
+    400066: transform15
+    400068: transform16
+    400070: transform17
+    400072: transform18
+    400074: transform19
+    400076: transform2
+    400078: transform20
+    400080: transform3
+    400082: transform4
+    400084: transform5
+    400086: transform6
+    400088: transform7
+    400090: transform8
+    400092: transform9
+    2300000: polySurface16
+    2300002: shop_BrokenSign
+    2300004: shop_Counter1
+    2300006: shop_sodaDispenser
+    3300000: polySurface16
+    3300002: shop_BrokenSign
+    3300004: shop_Counter1
+    3300006: shop_sodaDispenser
     4300000: shop_BrokenSign
     4300002: shop_sodaDispenser
     4300004: shop_Counter1
-    4300006: shop_Structure1
-    6400000: shop_BrokenSign
-    6400002: shop_Counter1
-    6400004: shop_sodaDispenser
-    6400006: shop_Structure1
+    4300006: polySurface16
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -111,7 +131,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
