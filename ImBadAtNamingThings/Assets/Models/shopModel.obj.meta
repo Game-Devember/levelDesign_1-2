@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b2b272b2beac5c94da93e72b5a1e55f9
+guid: 697a805547a8eae42ab174a6c84b3f21
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -25,10 +25,6 @@ ModelImporter:
     4300002: shop_All_shop_sodaDispenser
     4300004: shop_All_shop_Structure1
     4300006: shop_BrokenSign_shop_All
-    6400000: shop_All_shop_Counter1
-    6400002: shop_All_shop_sodaDispenser
-    6400004: shop_All_shop_Structure1
-    6400006: shop_BrokenSign_shop_All
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -51,7 +47,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
