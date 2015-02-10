@@ -1,8 +1,8 @@
 print "Starting maya loading and fbx conversion \n";
 			
-if (`file -q -exists "D:/UNITYP~1/LEVELD~1/IMBADA~1/Assets/Models/STREET~1.MB"`)
+if (`file -q -exists "D:/UNITYP~1/LEVELD~1/IMBADA~1/Assets/Models/WALLS_~1.MB"`)
 {
-	file -o "D:/UNITYP~1/LEVELD~1/IMBADA~1/Assets/Models/STREET~1.MB";
+	file -o "D:/UNITYP~1/LEVELD~1/IMBADA~1/Assets/Models/WALLS_~1.MB";
 	FBXExportEmbeddedTextures -v false;
 	// FBXExportHardEdges -v true;
 	FBXExportApplyConstantKeyReducer -v false;
