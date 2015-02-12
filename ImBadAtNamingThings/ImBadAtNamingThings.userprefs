@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\ai.js">
     <Files>
-      <File FileName="Assets\ai.js" Line="10" Column="6" />
+      <File FileName="Assets\ai.js" Line="17" Column="4" />
       <File FileName="Assets\Standard Assets (Mobile)\Scripts\FirstPersonControl.js" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets (Mobile)\Scripts\RotationConstraint.js" Line="1" Column="1" />
       <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
