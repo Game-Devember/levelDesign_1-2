@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: accb06ceba2041f43b7027794e2a196c
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 15
   fileIDToRecycleName:
     100000: pCube1
     100002: pCube4
@@ -109,6 +109,10 @@ ModelImporter:
     4300002: shop_sodaDispenser
     4300004: shop_Counter1
     4300006: polySurface16
+    6400000: polySurface16
+    6400002: shop_BrokenSign
+    6400004: shop_Counter1
+    6400006: shop_sodaDispenser
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -118,7 +122,6 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
-    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
@@ -131,7 +134,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -162,5 +165,4 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  additionalBone: 0
   userData: 
