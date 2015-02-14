@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 93ae30be08a6fef49bd19f578b4cfbd1
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: building2
     100002: //RootNode
@@ -166,6 +166,7 @@ ModelImporter:
     2300000: building2
     3300000: building2
     4300000: building2
+    6400000: building2
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -175,6 +176,7 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
+    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
@@ -187,7 +189,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: .00999999978
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
@@ -218,4 +220,5 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  additionalBone: 0
   userData: 
