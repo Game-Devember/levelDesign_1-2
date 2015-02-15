@@ -1,6 +1,8 @@
 ﻿#pragma strict
-
+var SpawnPoint:Transform;
 function Start () {
+yield WaitForSeconds(5);
+transform.position=SpawnPoint.position;
 
 }
 
