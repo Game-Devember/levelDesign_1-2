@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inputspecification version ="1">
+	<filelist>
+		<file>..\..\meshes\0ee5d5ebd79a0781337a86bfbbc3ccb2343c80fb.btm</file>
+		<file>..\..\meshes\170142ce24881bbe2ba562d2257972bc41cdcb2a.btm</file>
+		<file>..\..\meshes\27a96d373fc5663673ef561681656b0cc51826d3.btm</file>
+		<file>..\..\meshes\44e347fcdfee2a4d69186f2257a61431fd324edf.btm</file>
+		<file>..\..\meshes\4a9c6681de6dcb14e05533c829cd32c465286aae.btm</file>
+		<file>..\..\meshes\61a1ee7b6313cd7672fefe5201ea1423dd8a645d.btm</file>
+		<file>..\..\meshes\ae5d09e8a50c42cf6ecddebdc1106d7bd16cbf71.btm</file>
+		<file>..\..\meshes\aede3c3cfb662b9c3ba9dfbde1700062cd6c609f.btm</file>
+		<file>..\..\meshes\af926704d90f80a9e80b3c6cbd6dd2551b7eb214.btm</file>
+		<file>..\..\meshes\bbeddd57bfcf0cea47db593289449816befbe9de.btm</file>
+	</filelist>
+</inputspecification>
