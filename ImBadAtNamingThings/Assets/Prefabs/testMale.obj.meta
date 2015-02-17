@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: a1d62d2484c95a542ab39f7fa13f65f6
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
     100002: testMale:polySurface6
@@ -10,6 +10,7 @@ ModelImporter:
     2300000: testMale:polySurface6
     3300000: testMale:polySurface6
     4300000: testMale:polySurface6
+    6400000: testMale:polySurface6
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -19,7 +20,6 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
-    motionNodeName: 
     animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
@@ -63,5 +63,4 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
-  additionalBone: 0
   userData: 
