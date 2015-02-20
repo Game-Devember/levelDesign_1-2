@@ -1,14 +1,25 @@
-﻿#pragma strict
-var speed=20.0 ;
-function Start () {
-rigidbody.AddForce(transform.forward*speed);
+﻿private var shootRay : Ray;                                   
+private var shootHit : RaycastHit;                            
+var bullet :Transform;                                       
+function Update ()
+{
+   
+    if(Input.GetMouseButtonDown(0))
+    {
+        // ... shoot the gun.
+        Shoot ();
+    }
 }
 
-function Update () {
 
+
+public function Shoot ()
+{
+    shootRay.origin = transform.position;
+    shootRay.direction = transform.forward;
+
+    if(Physics.Raycast (transform.position, transform.forward, shootHit, 50.0))
+    {
+     Instantiate(bullet,shootHit.point, Quaternion.LookRotation( shootHit.normal));
+    }
 }
-function OnTriggerEnter(other : Collider)
- {
-  if(other.gameObject.tag!="BulletSpawn")
-     Destroy(gameObject);
-     }
