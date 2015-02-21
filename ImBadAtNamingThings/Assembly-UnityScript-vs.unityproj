@@ -46,8 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FireBullet.js" />
-     <Compile Include="Assets\Scripts\FiringBullet.js" />
+     <Compile Include="Assets\Scripts\FireBullet.js" />
      <Compile Include="Assets\Scripts\Flicker.js" />
      <Compile Include="Assets\Scripts\Health.js" />
      <Compile Include="Assets\Scripts\Picker.js" />

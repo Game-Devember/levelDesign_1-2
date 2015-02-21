@@ -1,6 +1,8 @@
 ﻿private var shootRay : Ray;                                   
 private var shootHit : RaycastHit;                            
-var bullet :Transform;                                       
+var bullet :Transform;
+var hitDistance =50.0;
+var shellFalls : AudioClip;                    
 function Update ()
 {
    
@@ -8,17 +10,15 @@ function Update ()
     {
         // ... shoot the gun.
         Shoot ();
-    }
+       // audio.PlayOneShot(shellFalls,0.7);
+            }
 }
 
 
 
 public function Shoot ()
 {
-    shootRay.origin = transform.position;
-    shootRay.direction = transform.forward;
-
-    if(Physics.Raycast (transform.position, transform.forward, shootHit, 50.0))
+    if(Physics.Raycast (transform.position, transform.forward, shootHit,hitDistance))
     {
      Instantiate(bullet,shootHit.point, Quaternion.LookRotation( shootHit.normal));
     }
