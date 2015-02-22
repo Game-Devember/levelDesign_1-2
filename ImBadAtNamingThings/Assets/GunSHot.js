@@ -14,5 +14,5 @@ ShotFired();
 }
 function ShotFired()
  {light.enabled=true;
-  yield WaitForSeconds(0.2);
+  yield WaitForSeconds(0.1);
   light.enabled=false;}
