@@ -39,15 +39,15 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Particles\Scripts\General Scripts\ActivateTrigger.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Sources\Scripts\Water.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\Displace.cs" />
      <Compile Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Scripts\GerstnerDisplace.cs" />
@@ -60,6 +60,7 @@
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Vertex Colored Shaders\Mobile Transparent Vertex Color.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Detail.shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-SimpleWater4.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Lightmap Shaders (Legacy)\Mobile Lightmap Reflective.shader" />
@@ -71,7 +72,7 @@
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
