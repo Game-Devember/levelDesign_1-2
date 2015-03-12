@@ -21,5 +21,11 @@ public function Shoot ()
     if(Physics.Raycast (transform.position, transform.forward, shootHit,hitDistance))
     {
      Instantiate(bullet,shootHit.point, Quaternion.LookRotation( shootHit.normal));
-    }
-}
+     var enemyHealth  = shootHit.collider.GetComponent (BulletEffect);
+      if(enemyHealth != null)
+        {   
+            // ... the enemy should take damage.
+            enemyHealth.TakeDamage ();
+        }
+
+}}

@@ -1,9 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\GunSHot.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\BulletEffect.js">
     <Files>
-      <File FileName="Assets\GunSHot.js" Line="18" Column="24" />
-      <File FileName="Assets\Scripts\FireBullet.js" Line="25" Column="2" />
+      <File FileName="Assets\Scripts\FireBullet.js" Line="28" Column="39" />
+      <File FileName="Assets\BulletEffect.js" Line="9" Column="21" />
+      <File FileName="Assets\GunSHot.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ai.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Health.js" Line="11" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
