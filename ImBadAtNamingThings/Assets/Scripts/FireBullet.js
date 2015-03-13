@@ -1,5 +1,6 @@
 ﻿private var shootRay : Ray;                                   
-private var shootHit : RaycastHit;                            
+private var shootHit : RaycastHit; 
+var player :Transform;                           
 var bullet :Transform;
 var hitDistance =50.0;
 var shellFalls : AudioClip;                    
@@ -20,12 +21,17 @@ public function Shoot ()
 {
     if(Physics.Raycast (transform.position, transform.forward, shootHit,hitDistance))
     {
-     Instantiate(bullet,shootHit.point, Quaternion.LookRotation( shootHit.normal));
+     
      var enemyHealth  = shootHit.collider.GetComponent (BulletEffect);
       if(enemyHealth != null)
         {   
             // ... the enemy should take damage.
             enemyHealth.TakeDamage ();
         }
+        else
+          {
+           Instantiate(bullet,shootHit.point+(player.position-shootHit.point)*0.01 , Quaternion.LookRotation( shootHit.normal));
+           
+           }
 
 }}
