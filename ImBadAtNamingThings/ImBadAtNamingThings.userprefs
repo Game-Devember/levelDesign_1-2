@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\WalkSpeedController.js">
     <Files>
-      <File FileName="Assets\WalkSpeedController.js" Line="8" Column="25" />
+      <File FileName="Assets\WalkSpeedController.js" Line="13" Column="5" />
       <File FileName="Assets\scri.js" Line="1" Column="1" />
       <File FileName="Assets\BulletEffect.js" Line="1" Column="1" />
       <File FileName="..\..\CarPhysics\Assets\Movement.js" Line="1" Column="1" />
