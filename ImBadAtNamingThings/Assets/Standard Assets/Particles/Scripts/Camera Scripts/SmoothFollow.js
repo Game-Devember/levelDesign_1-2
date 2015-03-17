@@ -16,7 +16,6 @@ var distance = 10.0;
 // the height we want the camera to be above the target
 var height = 5.0;
 // How much we 
-var distanceDamping =5.0;
 var heightDamping = 2.0;
 var rotationDamping = 3.0;
 
@@ -24,7 +23,7 @@ var rotationDamping = 3.0;
 @script AddComponentMenu("Camera-Control/Smooth Follow")
 
 
-function FixedUpdate () {
+function LateUpdate () {
 	// Early out if we don't have a target
 	if (!target)
 		return;
@@ -47,7 +46,7 @@ function FixedUpdate () {
 	
 	// Set the position of the camera on the x-z plane to:
 	// distance meters behind the target
-	transform.position =target.position;
+	transform.position = target.position;
 	transform.position -= currentRotation * Vector3.forward * distance;
 
 	// Set the height of the camera
