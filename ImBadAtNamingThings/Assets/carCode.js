@@ -12,7 +12,7 @@ var steer=0.0;
 var maxSteer=20.0;
  
 function Start(){
-    rigidbody.centerOfMass=Vector3(0,-1.5,0.3);
+    rigidbody.centerOfMass=Vector3(0,-2,0.3);
 }
  
 function Update () {
