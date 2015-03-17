@@ -8,17 +8,17 @@ var enginePower=150.0;
 var power=0.0;
 var brake=0.0;
 var steer=0.0;
- 
+var ebrake=0.002; 
 var maxSteer=20.0;
  
 function Start(){
-    rigidbody.centerOfMass=Vector3(0,-1.5,0.3);
+    rigidbody.centerOfMass=Vector3(0,0,0.6);
 }
  
 function Update () {
     power=Input.GetAxis("Vertical") * enginePower * Time.deltaTime * 100.0;
     steer=Input.GetAxis("Horizontal") * maxSteer;
-    brake=Input.GetKey("space") ? rigidbody.mass * 0.1: 0.0;
+    brake=Input.GetKey("space") ? rigidbody.mass * ebrake: 0.0;
    
     GetCollider(0).steerAngle=steer;
     GetCollider(2).steerAngle=steer;
