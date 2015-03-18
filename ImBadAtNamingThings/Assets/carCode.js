@@ -39,8 +39,7 @@ function Update () {
         GetCollider(2).brakeTorque=0;
         GetCollider(3).brakeTorque=0;
         GetCollider(0).motorTorque=power;
-        GetCollider(2).motorTorque=power;
-           
+        GetCollider(2).motorTorque=power; 
     }
 }
  
