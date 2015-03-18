@@ -24,6 +24,7 @@ ModelImporter:
     2300000: fireHydrant
     3300000: fireHydrant
     4300000: fireHydrant
+    6400000: fireHydrant
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -46,7 +47,7 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
