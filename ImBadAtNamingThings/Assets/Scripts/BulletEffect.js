@@ -11,5 +11,5 @@ Destroy(gameObject);
 }
 function TakeDamage()
  {
-  health-=25;
+  health-=50;
   }

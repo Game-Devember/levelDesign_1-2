@@ -14,7 +14,7 @@ var maxSteer=20.0;
 function Start(){
     rigidbody.centerOfMass=Vector3(0,0,0.6);
     transform.position=carSpawn.position;
-    rigidbody.velocity=Vector3(-100,0,0);
+    rigidbody.velocity=Vector3(-50,0,0);
    
 }
  
