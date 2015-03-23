@@ -69,6 +69,9 @@
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>D:/Unity Projects/levelDesign_1-2/ImBadAtNamingThings/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
+ <Reference Include="Assembly-UnityScript">
+ <HintPath>D:/Unity Projects/levelDesign_1-2/ImBadAtNamingThings/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
