@@ -12,16 +12,16 @@ var ebrake=0.002;
 var maxSteer=20.0;
  
 function Start(){
-    rigidbody.centerOfMass=Vector3(0,0,0.6);
+    GetComponent.<Rigidbody>().centerOfMass=Vector3(0,0,0.6);
     transform.position=carSpawn.position;
-    rigidbody.velocity=Vector3(-50,0,0);
+    GetComponent.<Rigidbody>().velocity=Vector3(-50,0,0);
    
 }
  
 function Update () {
     power=Input.GetAxis("Vertical") * enginePower * Time.deltaTime * 100.0;
     steer=Input.GetAxis("Horizontal") * maxSteer;
-    brake=Input.GetKey("space") ? rigidbody.mass * ebrake: 0.0;
+    brake=Input.GetKey("space") ? GetComponent.<Rigidbody>().mass * ebrake: 0.0;
    
     GetCollider(0).steerAngle=steer;
     GetCollider(2).steerAngle=steer;

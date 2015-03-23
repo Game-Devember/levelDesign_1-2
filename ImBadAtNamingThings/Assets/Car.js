@@ -1,8 +1,8 @@
 ﻿#pragma strict
-var carEntry:Transform;
-var carCamera :Transform;
+var carEntry:GameObject;
+var carCamera :GameObject;
 function Start () {
-rigidbody.centerOfMass=new Vector3(0,0,25);
+
 
 
 }

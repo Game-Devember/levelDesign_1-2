@@ -1,6 +1,6 @@
 ﻿#pragma strict
 var SpawnPoint:Transform;
-var markers :Transform;
+var markers :GameObject;
 function Start () {
 yield WaitForSeconds(5);
 transform.position=SpawnPoint.position;
@@ -14,7 +14,7 @@ function OnTriggerEnter(other : Collider)
   {
    if(other.gameObject.tag == ("PickUp"))
     { 
-     markers.active=true;
+//     markers.active=true;
      Destroy(other.gameObject);
      CharacterMotorMovement.maxForwardSpeed +=20;
      CharacterMotorMovement.maxSidewaysSpeed+=20;
@@ -23,7 +23,7 @@ function OnTriggerEnter(other : Collider)
      Debug.Log("0");
      
      yield WaitForSeconds(10);
-     markers.active=false;
+    // markers.SetActive(false);
      CharacterMotorMovement.maxForwardSpeed -=20;
      CharacterMotorMovement.maxSidewaysSpeed -=20;
      CharacterMotorMovement.maxBackwardsSpeed -=20;

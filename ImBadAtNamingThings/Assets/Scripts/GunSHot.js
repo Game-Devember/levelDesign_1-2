@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 function Start () {
-light.enabled=false;
+GetComponent.<Light>().enabled=false;
 }
 
 function Update () {
@@ -13,6 +13,6 @@ ShotFired();
 }
 }
 function ShotFired()
- {light.enabled=true;
+ {GetComponent.<Light>().enabled=true;
   yield WaitForSeconds(0.1);
-  light.enabled=false;}
+  GetComponent.<Light>().enabled=false;}

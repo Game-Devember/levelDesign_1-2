@@ -4,17 +4,15 @@ var movement:MonoScript;
 var speed :float;
 
 function Start () {
-animation.CrossFade("idle");
-animation["Take 001"].speed=1.5;
+//GetComponent.<Animation>().CrossFade("idle");
+GetComponent.<Animation>()["Take 001"].speed=1.5;
 
 }
 
 function Update () {
-  animation["Take 001"].speed=1.5;
+  GetComponent.<Animation>()["Take 001"].speed=1.5;
 if(Input.GetAxis("Vertical"))
 {
-animation.CrossFade("Take 001");
+GetComponent.<Animation>().CrossFade("Take 001");
 }
-else
-animation.CrossFade("idle");
 }
