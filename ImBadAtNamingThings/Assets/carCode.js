@@ -4,18 +4,20 @@ var rb : Transform;
 var fl : Transform;
 var lb : Transform; 
 var enginePower=150.0;
-var carSpawn :Transform;
 var power=0.0;
 var brake=0.0;
 var steer=0.0;
 var ebrake=0.002; 
 var maxSteer=20.0;
- 
+
 function Start(){
     GetComponent.<Rigidbody>().centerOfMass=Vector3(0,0,0.6);
-    transform.position=carSpawn.position;
-    GetComponent.<Rigidbody>().velocity=Vector3(-50,0,0);
-   
+    GetComponent.<Rigidbody>().velocity=Vector3(0,0,55);
+      yield WaitForSeconds(1);
+     GetComponent.<Rigidbody>().AddTorque(Vector3(0,12455550,0));
+     yield WaitForSeconds(8);
+    
+    
 }
  
 function Update () {

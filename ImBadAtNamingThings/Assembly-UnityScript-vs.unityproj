@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Program Files/Unity5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>F:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Program Files/Unity5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>F:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -72,6 +72,7 @@
      <Compile Include="Assets\Standard Assets (Mobile)\Scripts\tapcontrol.js" />
      <Compile Include="Assets\ZombieSpawn.js" />
      <Compile Include="Assets\carCode.js" />
+     <Compile Include="Assets\cutSceneController.js" />
      <Compile Include="Assets\lennyController.js" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />
@@ -89,10 +90,10 @@
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>D:/Unity Projects/levelDesign_1-2/ImBadAtNamingThings/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>C:/Users/Yash/Documents/levelDesign_1-2/ImBadAtNamingThings/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>D:/Program Files/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>F:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

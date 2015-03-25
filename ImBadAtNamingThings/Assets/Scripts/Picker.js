@@ -1,13 +1,14 @@
 ﻿#pragma strict
-var SpawnPoint:Transform;
-var markers :GameObject;
+var shotGun :GameObject;
+var playerHealth=100;
 function Start () {
-yield WaitForSeconds(5);
-transform.position=SpawnPoint.position;
 
 }
 
-function Update () {
+function Update () 
+{
+//if(playerHealth<=0)
+ //Destroy(gameObject);
 
 }
 function OnTriggerEnter(other : Collider)
@@ -29,6 +30,18 @@ function OnTriggerEnter(other : Collider)
      CharacterMotorMovement.maxBackwardsSpeed -=20;
      CharacterMotorMovement.maxGroundAcceleration -=20;
      Debug.Log("10");
+    }
+   if(other.gameObject.tag==("healthPickUp"))
+     {
+      playerHealth=Mathf.Lerp(playerHealth,100,Time.deltaTime);
+     }
+     if(other.gameObject.tag==("shotGun"))
+     {
+      shotGun.SetActive(true);
+     }
+     if(other.gameObject.tag==("Zombie"))
+    {
+     playerHealth-=25;
     }
    }
      

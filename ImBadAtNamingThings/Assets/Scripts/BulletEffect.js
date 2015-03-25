@@ -1,15 +1,15 @@
 ﻿#pragma strict
-var health=100;
+var playerHealth=100;
 function Start () {
 
 }
 
 function Update () {
-if(health<=0)
+if(playerHealth<=0)
 Destroy(gameObject);
 
 }
 function TakeDamage()
  {
-  health-=50;
+  playerHealth-=50;
   }

@@ -1,13 +1,18 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\WalkSpeedController.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Picker.js">
     <Files>
-      <File FileName="Assets\Scripts\WalkSpeedController.js" Line="7" Column="3" />
+      <File FileName="Assets\cutSceneController.js" Line="9" Column="1" />
+      <File FileName="Assets\carCode.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WalkSpeedController.js" Line="1" Column="1" />
       <File FileName="Assets\ZombieSpawn.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\FireBullet.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ai.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Picker.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Picker.js" Line="11" Column="4" />
       <File FileName="Assets\Scripts\BulletEffect.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\cameraController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Health.js" Line="2" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
