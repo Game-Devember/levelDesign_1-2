@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: dcf1c03a602caa349b85c52ee18bd59d
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 18
   fileIDToRecycleName:
     100000: //RootNode
     100002: houseS1
@@ -71,6 +71,8 @@ ModelImporter:
     3300002: pCylinder27
     4300000: houseS1
     4300002: pCylinder27
+    6400000: houseS1
+    6400002: pCylinder27
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -93,17 +95,19 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
@@ -126,3 +130,5 @@ ModelImporter:
   animationType: 2
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
