@@ -1,15 +1,19 @@
 ﻿#pragma strict
 var playerHealth=100;
-function Start () {
 
+function Start () {
+	GetComponent.<Animation>()["death2"].layer = 1;
+	GetComponent.<Animation>()["death2"].wrapMode = WrapMode.Once;
 }
 
 function Update () {
-if(playerHealth<=0)
-Destroy(gameObject);
-
+	if(playerHealth<=0)
+	{
+		Destroy(gameObject);
+	}
 }
+
 function TakeDamage()
  {
-  playerHealth-=50;
-  }
+ 	playerHealth-=50;
+ }
