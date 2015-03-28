@@ -1,5 +1,5 @@
 ﻿#pragma strict
-static  var playerHealth=100;
+static  var playerHealth=10;
 
 function Start () {
 

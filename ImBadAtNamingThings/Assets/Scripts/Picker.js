@@ -1,6 +1,6 @@
 ﻿#pragma strict
 var shotGun :GameObject;
-var playerHealth=100;
+var playerHealth=10;
 function Start () {
 
 }
@@ -33,10 +33,13 @@ function OnTriggerEnter(other : Collider)
     }
    if(other.gameObject.tag==("healthPickUp"))
      {
+      Destroy(other.gameObject);
       playerHealth=Mathf.Lerp(playerHealth,100,Time.deltaTime);
      }
      if(other.gameObject.tag==("shotGun"))
+      
      {
+      Destroy(other.gameObject);
       shotGun.SetActive(true);
      }
      if(other.gameObject.tag==("Zombie"))
