@@ -1,21 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\zombieCreator.js">
     <Files>
-      <File FileName="Assets\Scripts\BulletEffect.js" Line="6" Column="2" />
-      <File FileName="Assets\Scripts\FireBullet.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ai.js" Line="1" Column="1" />
+      <File FileName="Assets\zombieCreator.js" Line="14" Column="4" />
       <File FileName="Assets\Scripts\Picker.js" Line="1" Column="1" />
-      <File FileName="Assets\cutSceneController.js" Line="1" Column="1" />
-      <File FileName="Assets\carCode.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\WalkSpeedController.js" Line="1" Column="1" />
-      <File FileName="Assets\ZombieSpawn.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\cameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Health.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\sc.cs" Line="1" Column="1" />
-      <File FileName="Assets\testZombieAnim.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Characters\ThirdPersonCharacter\Scripts\AICharacterControl.cs" Line="20" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
