@@ -74,6 +74,7 @@
      <Compile Include="Assets\carCode.js" />
      <Compile Include="Assets\cutSceneController.js" />
      <Compile Include="Assets\lennyController.js" />
+     <Compile Include="Assets\testZombieAnim.js" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Particle Shaders\Mobile Multiply Culled.shader" />
      <None Include="Assets\Plugins\donotdelete.txt" />
      <None Include="Assets\Standard Assets (Mobile)\Shaders\Miscellaneous Shaders\Mobile Background.shader" />

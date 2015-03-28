@@ -27,7 +27,8 @@ namespace UnityStandardAssets.Characters.ThirdPerson
         private void Update()
         {
             if (target != null)
-            {
+            {    
+				if(Vector3.Distance(transform.position,target.position)<50)
                 agent.SetDestination(target.position);
 
 				
