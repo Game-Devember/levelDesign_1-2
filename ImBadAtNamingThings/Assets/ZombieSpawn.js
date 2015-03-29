@@ -6,8 +6,9 @@ var spawn3 :Transform;
 var timeSpan :float;
 var timeInterval :float;
 var player :Transform;
+var passed : boolean;
 function Start () {
-
+passed=false;
 }
 function Update () {
 if(Vector3.Distance(player.position,transform.position)<10)
@@ -16,8 +17,6 @@ InvokeRepeating("zombieSpawnage",0,timeInterval);
 spawnInterval();
 gameObject.SetActive(false);
 }
-
-
 
 }
 function  zombieSpawnage()
@@ -42,6 +41,11 @@ Debug.Log("spawn");
 }
   }
  function spawnInterval()
-  {
+   {
     yield WaitForSeconds(timeSpan);
     }
+    
+ function spawnSequence()
+  {passed=true;
+   
+}

@@ -2,12 +2,22 @@
 private var shootHit : RaycastHit; 
 var player :Transform;                           
 var bullet :Transform;
+var shootSound : AudioClip;
+var reloadSound : AudioClip;
+private var soundClip : AudioSource;
 var hitDistance =50.0;
-var shellFalls : AudioClip;                    
+var reload :boolean;
+var muzzleFlash : Light;
+
+function Start()
+ {
+ 	soundClip = GetComponent.<AudioSource>();
+  	reload=false;   
+ }                 
 function Update ()
 {
    
-    if(Input.GetMouseButtonDown(0))
+    if(Input.GetMouseButtonDown(0)&&reload==false)
     {
         // ... shoot the gun.
         Shoot ();
@@ -18,20 +28,36 @@ function Update ()
 
 
 public function Shoot ()
-{
+ { reload=true;
     if(Physics.Raycast (transform.position, transform.forward, shootHit,hitDistance))
     {
      
      var enemyHealth  = shootHit.collider.GetComponent (BulletEffect);
       if(enemyHealth != null)
-        {   
-            // ... the enemy should take damage.
+       {// ... the enemy should take damage.
             enemyHealth.TakeDamage ();
+            
+           
         }
         else
           {
            Instantiate(bullet,shootHit.point+(player.position-shootHit.point)*0.01 , Quaternion.LookRotation( shootHit.normal));
            
            }
+           
+      }
+      soundClip.clip = shootSound;
+      soundClip.Play();
+ 	muzzleFlash.enabled=true;
+ 	yield WaitForSeconds(0.1);
+ 	muzzleFlash.enabled=false;
+    yield WaitForSeconds(0.7);
+    soundClip.clip = reloadSound;
+    soundClip.Play();
+    yield WaitForSeconds(0.2);
+  	reload=false;
+}
 
-}}
+
+
+

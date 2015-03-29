@@ -1,0 +1,179 @@
+fileFormatVersion: 2
+guid: 97234eda7e96ffd4f945bf743f2b18c1
+timeCreated: 1427581452
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: body_GRP
+    100002: CTRL_GRP
+    100004: head_JNT
+    100006: hip_CTRL
+    100008: hip_JNT
+    100010: hipBind_JNT
+    100012: leftArm_HDL
+    100014: leftBall_HDL
+    100016: leftBall_HDL 1
+    100018: leftBall_JNT
+    100020: leftFoot_JNT
+    100022: leftForeArm_JNT
+    100024: leftHand_CTRL
+    100026: leftHand_end_JNT
+    100028: leftHand_JNT
+    100030: leftLeg_CTRL
+    100032: leftLeg_HDL
+    100034: leftLeg_HDL 1
+    100036: leftShin_JNT
+    100038: leftShoulder_JNT
+    100040: leftThigh_JNT
+    100042: leftToe_HDL
+    100044: leftToe_HDL 1
+    100046: leftToe_JNT
+    100048: leftUpperArm_JNT
+    100050: neck_JNT
+    100052: nurbsCircle1
+    100054: rightArm_HDL
+    100056: rightBall_HDL
+    100058: rightBall_JNT
+    100060: rightFoot_JNT
+    100062: rightForeArm_JNT
+    100064: rightHand_CTRL
+    100066: rightHand_end_JNT
+    100068: rightHand_JNT
+    100070: rightLeg_CTRL
+    100072: rightLeg_HDL
+    100074: rightShin_JNT
+    100076: rightShoulder_JNT
+    100078: rightThigh_JNT
+    100080: rightToe_HDL
+    100082: rightToe_JNT
+    100084: rightUpperArm_JNT
+    100086: shoulder_CTRL
+    100088: shoulderBind_JNT
+    100090: spine1_JNT
+    100092: spine2_JNT
+    100094: spine3_JNT
+    100096: spine4_JNT
+    100098: spine5_JNT
+    100100: spine6_JNT
+    100102: spine_CRV
+    100104: spine_HDL
+    100106: //RootNode
+    100108: zombieModel
+    400000: body_GRP
+    400002: CTRL_GRP
+    400004: head_JNT
+    400006: hip_CTRL
+    400008: hip_JNT
+    400010: hipBind_JNT
+    400012: leftArm_HDL
+    400014: leftBall_HDL
+    400016: leftBall_HDL 1
+    400018: leftBall_JNT
+    400020: leftFoot_JNT
+    400022: leftForeArm_JNT
+    400024: leftHand_CTRL
+    400026: leftHand_end_JNT
+    400028: leftHand_JNT
+    400030: leftLeg_CTRL
+    400032: leftLeg_HDL
+    400034: leftLeg_HDL 1
+    400036: leftShin_JNT
+    400038: leftShoulder_JNT
+    400040: leftThigh_JNT
+    400042: leftToe_HDL
+    400044: leftToe_HDL 1
+    400046: leftToe_JNT
+    400048: leftUpperArm_JNT
+    400050: neck_JNT
+    400052: nurbsCircle1
+    400054: rightArm_HDL
+    400056: rightBall_HDL
+    400058: rightBall_JNT
+    400060: rightFoot_JNT
+    400062: rightForeArm_JNT
+    400064: rightHand_CTRL
+    400066: rightHand_end_JNT
+    400068: rightHand_JNT
+    400070: rightLeg_CTRL
+    400072: rightLeg_HDL
+    400074: rightShin_JNT
+    400076: rightShoulder_JNT
+    400078: rightThigh_JNT
+    400080: rightToe_HDL
+    400082: rightToe_JNT
+    400084: rightUpperArm_JNT
+    400086: shoulder_CTRL
+    400088: shoulderBind_JNT
+    400090: spine1_JNT
+    400092: spine2_JNT
+    400094: spine3_JNT
+    400096: spine4_JNT
+    400098: spine5_JNT
+    400100: spine6_JNT
+    400102: spine_CRV
+    400104: spine_HDL
+    400106: //RootNode
+    400108: zombieModel
+    4300000: zombieModel
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: zombieModel
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
