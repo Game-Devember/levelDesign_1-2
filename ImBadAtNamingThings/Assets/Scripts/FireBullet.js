@@ -8,9 +8,10 @@ private var soundClip : AudioSource;
 var hitDistance =50.0;
 var reload :boolean;
 var muzzleFlash : Light;
-
+//var shotVector :LineRenderer;
 function Start()
  {
+    //shotVector=GetComponent(LineRenderer);
  	soundClip = GetComponent.<AudioSource>();
   	reload=false;   
  }                 
@@ -28,10 +29,13 @@ function Update ()
 
 
 public function Shoot ()
- { reload=true;
+ { // shotVector.enabled = true;
+   // shotVector.SetPosition (0, transform.position);
+
+   reload=true;
     if(Physics.Raycast (transform.position, transform.forward, shootHit,hitDistance))
     {
-     
+     //shotVector.SetPosition(0,shootHit.point);
      var enemyHealth  = shootHit.collider.GetComponent (BulletEffect);
       if(enemyHealth != null)
        {// ... the enemy should take damage.
@@ -42,7 +46,7 @@ public function Shoot ()
         else
           {
            Instantiate(bullet,shootHit.point+(player.position-shootHit.point)*0.01 , Quaternion.LookRotation( shootHit.normal));
-           
+           //shotVector.SetPosition (1,shootHit.point);
            }
            
       }

@@ -1,51 +1,43 @@
 ﻿#pragma strict
+
 var zombie :Transform;
-var spawn1 :Transform;
-var spawn2 :Transform;
-var spawn3 :Transform;
+var spawn :Transform[];
 var timeSpan :float;
 var timeInterval :float;
 var player :Transform;
 var passed : boolean;
-function Start () {
-passed=false;
-}
-function Update () {
-if(Vector3.Distance(player.position,transform.position)<10)
-{
-InvokeRepeating("zombieSpawnage",0,timeInterval);
-spawnInterval();
-gameObject.SetActive(false);
-}
+var random :float;
+var triggerRange :float;
+var counter : float;
+var trig : boolean;
 
+function Start () 
+{   
+  
+	passed=false;
+	trig = false;
+	counter = (timeSpan/timeInterval);
+	timeFunc();
 }
-function  zombieSpawnage()
-  {
-  if ( Random.value > 0.3&&Random.value < 0.6)
+function Update ()
 {
-Instantiate(zombie,spawn1.position, Quaternion.identity);
-Debug.Log("spawn");
+ 	if(Vector3.Distance(transform.position,player.position)<10 && passed==false)
+  	{
+   		trig = true;
+  	}
 }
-else
-if ( Random.value > 0.6 && Random.value < 0.9)
+function spawnSystem()
 {
-Instantiate(zombie,spawn2.position, Quaternion.identity);
-Debug.Log("spawn");
-
+  	random=Random.Range(0,3);
+  	Instantiate(zombie,spawn[random].position , Quaternion.identity);
 }
-else
-if ( Random.value < 0.3 )
+//YOU'RE FUCKING WELCOME
+function timeFunc()
 {
-Instantiate(zombie,spawn3.position , Quaternion.identity);
-Debug.Log("spawn");
-}
-  }
- function spawnInterval()
-   {
-    yield WaitForSeconds(timeSpan);
-    }
-    
- function spawnSequence()
-  {passed=true;
-   
+	if(trig && counter > 0)
+  	{
+   		spawnSystem();
+   	    counter--;
+  	}
+  	Invoke("timeFunc",timeInterval);
 }

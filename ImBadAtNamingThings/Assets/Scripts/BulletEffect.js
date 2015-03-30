@@ -1,6 +1,6 @@
 ﻿#pragma strict
 var playerHealth=100;
-var anim : Animator ;
+private var anim : Animator ;
 var deathHash : int = Animator.StringToHash("death");
 var navAg : NavMeshAgent;
 
@@ -14,7 +14,6 @@ navAg = GetComponent("NavMeshAgent");
 function Update () {
 	if(playerHealth<=0)
 	{
-		anim.SetTrigger(deathHash);
 		deathWait();
 	}
 }
@@ -26,7 +25,9 @@ function TakeDamage()
  
  function deathWait()
  {
- 	navAg.enabled = false;
+ 	navAg.Stop();
+ 	gameObject.GetComponent(Collider).enabled=false;
+ 	anim.SetTrigger(deathHash);
  	yield WaitForSeconds(3);
  	Destroy(gameObject);
  }
