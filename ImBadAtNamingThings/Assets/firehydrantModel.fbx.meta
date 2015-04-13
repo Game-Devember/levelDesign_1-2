@@ -1,7 +1,9 @@
 fileFormatVersion: 2
-guid: d36082ea4c772a54aac1ca7909b45d80
+guid: 4563009d00987af4e82ce16311975807
+timeCreated: 1428135423
+licenseType: Free
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 18
   fileIDToRecycleName:
     100000: fireHydrant
     100002: firehydrant_001:Cylinder001
@@ -24,7 +26,6 @@ ModelImporter:
     2300000: fireHydrant
     3300000: fireHydrant
     4300000: fireHydrant
-    6400000: fireHydrant
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -47,17 +48,19 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 1
+    addColliders: 0
     importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
@@ -80,3 +83,5 @@ ModelImporter:
   animationType: 2
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
